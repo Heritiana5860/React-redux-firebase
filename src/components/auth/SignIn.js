@@ -24,7 +24,7 @@ class SignIn extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <h2>Sign In</h2>
                     <div className="input">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">email</label>
                         <input type="email" id="email" onChange={this.handleChange} value={this.state.email}/>
                     </div>
 
