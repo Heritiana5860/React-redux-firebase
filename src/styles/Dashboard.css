@@ -1,0 +1,25 @@
+.dashboard{
+    max-width: 1200px;
+    padding-top: 80px;
+    margin: 0 auto;
+    font-family: arial;
+}
+.dashboard .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    justify-items: center;
+}
+.card-content{
+    padding: 30px;
+}
+.card-content .card-title{
+    font-size: 1.8em;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.card-content .p-date{
+    color: #555;
+    margin-top: 8px;
+}
